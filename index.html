@@ -2,270 +2,282 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
-  <title>Nairobi Saccos</title>
+    <title>Nairobi Saccos</title>
 </head>
 
 <body>
-  <div class="container">
+    <div class="container">
 
-    <header class="header">
-      <img src="img/logo.png" alt="logo" class="logo">
-
-      <form action="#" class="search">
-        <input type="text" class="search__input" placeholder="Search Saccos">
-        <button class="search__button">
-          <svg class="search__icon">
-            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
-          </svg>
-        </button>
-      </form>
-
-
-      <nav class="user-nav">
-        <div class="user-nav__icon-box">
-          <svg class="user-nav__icon">
-            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
-          </svg>
-          <span class="user-nav__notification">7</span>
-        </div>
-        <div class="user-nav__icon-box">
-          <svg class="user-nav__icon">
-            <use xlink:href="img/sprite.svg#icon-chat"></use>
-          </svg>
-          <span class="user-nav__notification">13</span>
-        </div>
-        <div class="user-nav__user">
-          <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
-          <span class="user-nav__user-name">Zadock</span>
-        </div>
-      </nav>
-
-    </header>
-
-    <div class="content">
-
-      <nav class="sidebar">
-        <ul class="side-nav">
-          <li class="side-nav__item side-nav__item--active">
-            <a href="#" class="side-nav__link">
-              <svg class="side-nav__icon">
-                <use xlink:href="img/sprite.svg#icon-home"></use>
-              </svg>
-              <span>Sacco</span>
+        <header class="header">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo" class="logo">
             </a>
-          </li>
-          <li class="side-nav__item">
-            <a href="#" class="side-nav__link">
-              <svg class="side-nav__icon">
-                <use xlink:href="img/sprite.svg#icon-wrench"></use>
-              </svg>
-              <span>Garages</span>
-            </a>
-          </li>
-          <li class="side-nav__item">
-            <a href="#" class="side-nav__link">
-              <svg class="side-nav__icon">
-                <use xlink:href="img/sprite.svg#icon-key"></use>
-              </svg>
-              <span>Bus Rental</span>
-            </a>
-          </li>
-          <li class="side-nav__item">
-            <a href="#" class="side-nav__link">
-              <svg class="side-nav__icon">
-                <use xlink:href="img/sprite.svg#icon-map"></use>
-              </svg>
-              <span>Tours</span>
-            </a>
-          </li>
-        </ul>
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Search Saccos">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
 
 
-        <div class="legal">
-          &copy; 2019 by zadock. All Rights Reserved
-        </div>
-      </nav>
-
-      <main class="matatu-view">
-
-
-        <div class="gallery">
-          <figure>
-            <img class="gallery__photo" src="img/matatu-1.jpg" alt="photo of matatu 1">
-          </figure>
-          <figure>
-            <img class="gallery__photo" src="img/matatu-2.jpg" alt="photo of matatu 1">
-          </figure>
-          <figure>
-            <img class="gallery__photo" src="img/matatu-3.jpg" alt="photo of matatu 1">
-          </figure>
-        </div>
-
-        <div class="overview">
-          <h1 class="overview__heading">
-            Transport Investments, Inc.
-          </h1>
-
-          <div class="overview__stars">
-            <svg class="overview__icon-star">
-              <use xlink:href="img/sprite.svg#icon-star"></use>
-            </svg>
-            <svg class="overview__icon-star">
-              <use xlink:href="img/sprite.svg#icon-star"></use>
-            </svg>
-            <svg class="overview__icon-star">
-              <use xlink:href="img/sprite.svg#icon-star"></use>
-            </svg>
-            <svg class="overview__icon-star">
-              <use xlink:href="img/sprite.svg#icon-star"></use>
-            </svg>
-            <svg class="overview__icon-star">
-              <use xlink:href="img/sprite.svg#icon-star"></use>
-            </svg>
-          </div>
-
-          <div class="overview__location">
-            <svg class="overview__icon-location">
-              <use xlink:href="img/sprite.svg#icon-location-pin"></use>
-            </svg>
-            <button class="btn-inline">Nairobi, Kenya</button>
-          </div>
-
-          <div class="overview__rating">
-            <div class="overview__rating-average">8.6</div>
-            <div class="overview__rating-count">346 Votes</div>
-          </div>
-        </div>
-
-        <div class="detail">
-
-          <div class="description">
-            <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sequi modi itaque cumque obcaecati nisi ea
-              fugiat, natus accusantium voluptate repellendus assumenda repellat quibusdam veritatis illum fugit
-              expedita nulla aliquam!
-            </p>
-            <p class="paragraph">
-              veniam id totamr sit amet, consectetur adipisicing elit. Nulla reprehenderit ?
-            </p>
-            <ul class="list">
-              <li class="list__item">
-                Financial reports
-              </li>
-              <li class="list__item">
-                Detailed Information 
-              </li>
-              <li class="list__item">
-                TLB licenses Information
-              </li>
-              <li class="list__item">
-                 quick quotes 
-                </li>
-              <li class="list__item">
-                 We speak All languages
-                </li>
-              <li class="list__item">
-                Grow Your Business 
-              </li>
-              <li class="list__item">
-                Drive and Tow Services
-              </li>
-              <li class="list__item">
-                Corporate Transport</li>
-
-            </ul>
-            <div class="recommend">
-
-              <p class="recommend__count">
-                Commuter Saccos that You Should Definitely check out
-              </p>
-
-              <p class="recommend_friends">
-                <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
-                <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
-                <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
-                <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
-              </p>
-
-            </div>
-
-
-            <div data-type="countdown" data-id="1798505" class="tickcounter"
-                style="width: 100%; position: relative; padding-bottom: 25%"><a
-                    href="//www.tickcounter.com/countdown/1798505/going-live-in" title="Going Live in:">Going Live in:</a><a
-                    href="//www.tickcounter.com/" title="Countdown">Countdown</a></div>
-            <script>(function (d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
-
-
-          </div>
-
-          <div class="user-reviews">
-            <figure class="review">
-              <blockquote class="review__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit eum officiis ex eveniet quae saepe?
-                Deserunt, cupiditate omnis.
-              </blockquote>
-              <figcaption class="review__user">
-                <img src="img/user-1.jpg" alt="user 1" class="review__photo">
-                <div class="review__user-box">
-                  <p class="review__user-name">Eastleigh Sacco</p>
-                  <p class="review__user-date">Feb 23rd, 2019</p>
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
                 </div>
-                <div class="review__rating">7.8</div>
-              </figcaption>
-            </figure>
-
-            <figure class="review">
-              <blockquote class="review__text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sint culpa unde incidunt
-                blanditiis.
-              </blockquote>
-              <figcaption class="review__user">
-                <img src="img/user-2.jpg" alt="user 1" class="review__photo">
-                <div class="review__user-box">
-                  <p class="review__user-name">Thika Road Sacco.</p>
-                  <p class="review__user-date">May 13th, 2019</p>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
                 </div>
-                <div class="review__rating">
-                  6.2
+                <div class="user-nav__user">
+                    <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Zadock</span>
                 </div>
-              </figcaption>
-            </figure>
+            </nav>
 
-            <button class="btn-inline">
-              show All <span>&rarr;</span>
-            </button>
-          </div>
+        </header>
+
+        <div class="content">
+
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="index.html" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Sacco</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="garages.html" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-wrench"></use>
+                            </svg>
+                            <span>Garages</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="bus_rental.html" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Bus Rental</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="tours.html" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Tours</span>
+                        </a>
+                    </li>
+                </ul>
 
 
+                <div class="legal">
+                    &copy; 2019 by zadock. All Rights Reserved
+                </div>
+            </nav>
+
+            <main class="matatu-view">
+
+
+                <div class="gallery">
+                    <figure>
+                        <img class="gallery__photo" src="img/matatu-1.jpg" alt="photo of matatu 1">
+                    </figure>
+                    <figure>
+                        <img class="gallery__photo" src="img/matatu-2.jpg" alt="photo of matatu 1">
+                    </figure>
+                    <figure>
+                        <img class="gallery__photo" src="img/matatu-3.jpg" alt="photo of matatu 1">
+                    </figure>
+                </div>
+
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        Transport Investments, Inc.
+                    </h1>
+
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline">Nairobi, Kenya</button>
+                    </div>
+
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">346 Votes</div>
+                    </div>
+                </div>
+
+                <div class="detail">
+
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sequi modi itaque cumque
+                            obcaecati nisi ea
+                            fugiat, natus accusantium voluptate repellendus assumenda repellat quibusdam veritatis illum
+                            fugit
+                            expedita nulla aliquam!
+                        </p>
+                        <p class="paragraph">
+                            veniam id totamr sit amet, consectetur adipisicing elit. Nulla reprehenderit ?
+                        </p>
+                        <ul class="list">
+                            <li class="list__item">
+                                Financial reports
+                            </li>
+                            <li class="list__item">
+                                Detailed Information
+                            </li>
+                            <li class="list__item">
+                                TLB licenses Information
+                            </li>
+                            <li class="list__item">
+                                quick quotes
+                            </li>
+                            <li class="list__item">
+                                We speak All languages
+                            </li>
+                            <li class="list__item">
+                                Grow Your Business
+                            </li>
+                            <li class="list__item">
+                                Drive and Tow Services
+                            </li>
+                            <li class="list__item">
+                                Corporate Transport</li>
+
+                        </ul>
+                        <div class="recommend">
+
+                            <p class="recommend__count">
+                                Commuter Saccos that You Should Definitely check out
+                            </p>
+
+                            <p class="recommend_friends">
+                                <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                                <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                                <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                                <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                            </p>
+
+                        </div>
+
+
+                        <div data-type="countdown" data-id="1798505" class="tickcounter"
+                            style="width: 100%; position: relative; padding-bottom: 25%"><a
+                                href="//www.tickcounter.com/countdown/1798505/going-live-in"
+                                title="Going Live in:">Going Live in:</a><a href="//www.tickcounter.com/"
+                                title="Countdown">Countdown</a></div>
+                        <script>
+                            (function (d, s, id) {
+                                var js, pjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = "//www.tickcounter.com/static/js/loader.js";
+                                pjs.parentNode.insertBefore(js, pjs);
+                            }(document, "script", "tickcounter-sdk"));
+                        </script>
+
+
+                    </div>
+
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit eum officiis ex
+                                eveniet quae saepe?
+                                Deserunt, cupiditate omnis.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/user-1.jpg" alt="user 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Eastleigh Sacco</p>
+                                    <p class="review__user-date">Feb 23rd, 2019</p>
+                                </div>
+                                <div class="review__rating">7.8</div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="review">
+                            <blockquote class="review__text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sint culpa unde
+                                incidunt
+                                blanditiis.
+                            </blockquote>
+                            <figcaption class="review__user">
+                                <img src="img/user-2.jpg" alt="user 1" class="review__photo">
+                                <div class="review__user-box">
+                                    <p class="review__user-name">Thika Road Sacco.</p>
+                                    <p class="review__user-date">May 13th, 2019</p>
+                                </div>
+                                <div class="review__rating">
+                                    6.2
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                        <button class="btn-inline">
+                            show All <span>&rarr;</span>
+                        </button>
+                    </div>
+
+
+
+                </div>
+                <div class="cta">
+                    <h2 class="cta__book-now">
+                        Good News! We Serve as a holding company for saccos approved by NTSA
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">Invest now</span>
+                        <span class="btn__invisible">for future acquisitions</span>
+
+                    </button>
+                </div>
+            </main>
 
         </div>
-        <div class="cta">
-          <h2 class="cta__book-now">
-            Good News! We Serve as a holding company for saccos approved by NTSA
-          </h2>
-          <button class="btn">
-            <span class="btn__visible">Invest now</span>
-            <span class="btn__invisible">for future acquisitions</span>
-
-          </button>
-        </div>
-      </main>
-
     </div>
-  </div>
 
 </body>
 
 </html>
-
-
-
