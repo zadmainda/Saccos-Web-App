@@ -325,8 +325,14 @@ body {
     margin-right: .7rem;
     background-color: var(--color-primary);
     mask-image: url(../img/chevron-thin-right.svg);
-    mask-size: cover; }
 
+    mask-size: cover; }
+.gifs{
+    height: 140px;
+    text-align: center;
+    display: block;
+
+}
 .recommend {
   font-size: 1.3rem;
   color: var(--color-grey-dark-3);
